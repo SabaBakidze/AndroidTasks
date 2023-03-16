@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0ac1975-bb71-4da3-aa82-3519d199a6ad" name="Changes" comment="tasks completed 1, 2">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AndroidTasks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c0ac1975-bb71-4da3-aa82-3519d199a6ad" name="Changes" comment="tasks completed 1, 2, 3">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +43,19 @@
       <option name="project" value="LOCAL" />
       <updated>1678959128661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="tasks completed 1, 2, 3">
+      <created>1678961325897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678961325897</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tasks completed 1, 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks completed 1, 2" />
+    <MESSAGE value="tasks completed 1, 2, 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks completed 1, 2, 3" />
   </component>
 </project>

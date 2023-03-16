@@ -20,7 +20,11 @@ fun main() {
     val arrayToCheck = arrayOf(-4, 2, 5, 10, 1, 3)
     println("The array doesn't contain integer: " + notContains(arrayToCheck))
 
-
+    //Task 4
+    println("\n--- Task 4")
+    val a = "1010"
+    val b = "1011"
+    println("The sum is: ${binarySum(a, b)}")
 
 }
 
@@ -61,4 +65,18 @@ fun notContains(arr: Array<Int>): Int{
     }while (arr.contains(checkingNum))
 
     return checkingNum
+}
+
+//Task 4 function,
+fun binarySum(a: String, b: String): String {
+    var carry = 0
+    var i = a.length - 1
+    var j = b.length - 1
+    val sb = StringBuilder()
+    while (i >= 0 || j >= 0 || carry > 0) {
+        val sum = (if (i >= 0) a[i--] - '0' else 0) + (if (j >= 0) b[j--] - '0' else 0) + carry
+        carry = sum / 2
+        sb.append(sum % 2)
+    }
+    return sb.reverse().toString()
 }
