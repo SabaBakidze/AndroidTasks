@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0ac1975-bb71-4da3-aa82-3519d199a6ad" name="Changes" comment="tasks completed 1, 2, 3">
+    <list default="true" id="c0ac1975-bb71-4da3-aa82-3519d199a6ad" name="Changes" comment="tasks completed 1, 2, 3, 4">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/HashTable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +14,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2N5ZeY4vVQDsevp4Kehzsg7efuO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,12 +62,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678961325897</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tasks completed 1, 2, 3, 4">
+      <created>1678961622385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678961622385</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="tasks completed 1, 2" />
     <MESSAGE value="tasks completed 1, 2, 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="tasks completed 1, 2, 3" />
+    <MESSAGE value="tasks completed 1, 2, 3, 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="tasks completed 1, 2, 3, 4" />
   </component>
 </project>

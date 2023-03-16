@@ -26,6 +26,15 @@ fun main() {
     val b = "1011"
     println("The sum is: ${binarySum(a, b)}")
 
+    //Task 5
+    println("\n--- Task 5")
+    val n = 8
+    println("Number of variants are: " + countVariants(n))
+
+    //Task 6
+    println("\n--- Task 6 \nCheck separate class file")
+
+
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -79,4 +88,12 @@ fun binarySum(a: String, b: String): String {
         sb.append(sum % 2)
     }
     return sb.reverse().toString()
+}
+
+//Task 5 function, using recursion
+fun countVariants(stairsCount: Int): Int{
+    return fibonacci(stairsCount + 1)
+}
+fun fibonacci(n: Int): Int{
+    return if (n <= 1) n else fibonacci(n - 1) + fibonacci(n - 2)
 }
