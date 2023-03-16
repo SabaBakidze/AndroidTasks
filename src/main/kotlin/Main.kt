@@ -32,7 +32,7 @@ fun main() {
     println("Number of variants are: " + countVariants(n))
 
     //Task 6
-    println("\n--- Task 6 \nCheck separate class file")
+    println("\n--- Task 6 \nCheck separate class file 'HashTable.kt' ")
 
 
 }
