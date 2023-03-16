@@ -1,7 +1,7 @@
 fun main() {
 
     //Task 1
-    println("----- Task 1")
+    println("--- Task 1")
     val arrToCheck = arrayOf(3, 4, 5, 6, 3, 4, 5, 6, 7)
     val singleNumber = singleNumber(arrToCheck)
     if (singleNumber == 0)
@@ -11,10 +11,20 @@ fun main() {
 
 
     //Task 2
-    println("\n----- Task 2")
+    println("\n--- Task 2")
     val cashToSplit = 197
     println("Coins required to split $cashToSplit: ${minSplit(cashToSplit)}")
+
+    //Task 3
+    println("\n--- Task 3")
+    val arrayToCheck = arrayOf(-4, 2, 5, 10, 1, 3)
+    println("The array doesn't contain integer: " + notContains(arrayToCheck))
+
+
+
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 //Task 1 function, using bitwise operator XOR
 fun singleNumber(arr: Array<Int>): Int{
@@ -41,4 +51,14 @@ fun minSplit(cash: Int): Map<Int, Int>{
     }
 
     return result
+}
+
+//Task 3 function,
+fun notContains(arr: Array<Int>): Int{
+    var checkingNum = 0
+    do {
+        ++checkingNum
+    }while (arr.contains(checkingNum))
+
+    return checkingNum
 }
